@@ -1,4 +1,4 @@
-#Sorting an lsit using bubble sort
+#Sorting a list using bubble sort
 l = [90,3,45,62,13,24,1,10]
 def bubblesort(l):
     n=len(l)
@@ -13,7 +13,7 @@ def bubblesort(l):
             break
     return l
 
-#Sorting an list using Selection sort
+#Sorting a list using Selection sort
 a = [11,25,1,90,78]
 def selection_sort(a):
     f=len(a)
@@ -29,7 +29,7 @@ def selection_sort(a):
 
     return a        
 
-#Sorting using Insertion sort
+#Sorting a list using Insertion sort
 b = [67,34,23,12,4,9,99,78,37]
 def insertion_sort(b):
     g=len(b)
@@ -45,7 +45,7 @@ def insertion_sort(b):
         i=i+1
     return b
 
-#Sorting using Shell sort
+#Sorting a list using Shell sort
 d = [99, 10, 78, 86, 33, 42, 23, 12,67]
 def shell_sort(d):
     print("unsorted list:",d)
